@@ -1,0 +1,63 @@
+<style>
+    h1 {
+        font-family: cursive;
+        color: #003399;
+        text-align: center;
+    }
+    
+    h3 {
+        font-family: sans-serif;
+        color: #66CCFF;
+    }
+    
+    p {
+        font-family: sans-serif;
+    }
+    
+    ol {
+        font-family: sans-serif;
+    }
+    
+    body{
+            margin: 0;
+            background-color: #CCFFCC;
+        
+        }
+    ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            background-color: #0099CC;
+            position: fixed;
+            width: 15%;
+            height: 100%;
+            font-size: 30px;
+        }
+
+        
+        li a {
+            
+            display: block;
+            color: #CCFFCC;
+            text-align: center;
+            padding: 8px 0 8px 16px;
+            text-decoration: none;
+        }
+        
+        header {
+            text-align: center;
+            width: 1000px;  
+        }
+    img{
+        width: 1055px;
+        height: auto;
+        
+    }
+#container
+{
+    text-align: center;
+    width: 500px; 
+}
+    <div style="padding:1px 16px;margin-left:15%;background-color:smoke;height:1000px;">
+    </style> 
