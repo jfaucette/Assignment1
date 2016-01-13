@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        body {
+          font-family: Verdana;
+        }
+    </style>
+</head>
+<body>
+    <h3>Form</h3>
+ 
+    <form>
+        <label id="lblName" for="txtName">Name:</label>
+            <input type="text" id="txtName" name="txtName" /><br />
+        <label id="lblDescription" for="txtDescription">Description:</label><br />
+            <textarea rows="4" cols="50" name="txtDescription" id="txtDescription" ></textarea>
+        <div>
+            Preference:<br />
+            <input type="checkbox" name="opt1" value="Kindle" /> Milk<br />
+            <input type="checkbox" name="opt2" value="Audio" /> Butter<br />
+            <input type="checkbox" name="opt3" value="Hardcopy" /> Cheese<br />
+        </div>
+        Sex:<br />
+        <input type="radio" name="sex" value="male" />Male<br />
+        <input type="radio" name="sex" value="female" />Female<br />
+        <label id="lblDropDown" for="ddMyDD">Class</label>
+        <select name="ddMyDD">
+            <option value="13-17">13-17</option>
+            <option value="18-21">18-21</option>
+            <option value="22+">21+</option>
+        </select><br />
+        <input type="submit" />
+        <br />
+    </form>
+</body>
+</html>
